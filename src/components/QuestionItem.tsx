@@ -4,7 +4,7 @@ import { useState } from 'react'
 type QuestionItemProps = {
   question: Question
   count: number
-  onAnswer: (answer: string) => void
+  onAnswer: (answer: number) => void
 }
 
 export const QuestionItem = ({
